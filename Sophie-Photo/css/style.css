@@ -1,0 +1,35 @@
+.wxc-logo img {
+    height: 36px;   
+}
+
+.wxc-one-bg {
+    background-image: url("../asset/top.jpg");
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wxc-pres-bg {
+    background-image: url("../asset/sophie.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+.wxc-lh {line-height: 1em;}
+
+.wxc-crea-bg, .wxc-form-bg {
+    background-color: #151515;
+}
+
+textarea { 
+    resize:none; 
+}
+
+
+@media (max-width: 768px) {
+    .wxc-one-bg {height: 50vw;}
+    .wxc-one-titre {font-size: 7vw;}
+    .wxc-one-stitre {font-size: 4vw;}
+}
